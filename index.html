@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css"/>
+  <title>Document</title>
+</head>
+<body>
+<div id="content" class="content">Change text</div>
+
+<table id="myTable" class="content__table">
+  <thead>
+  <tr>
+    <th onclick="sortTable(0)">Ім'я</th>
+    <th onclick="sortTable(1)">Вік</th>
+    <th onclick="sortTable(2)">Зарплата</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Іван</td>
+    <td>25</td>
+    <td>2000</td>
+  </tr>
+  <tr>
+    <td>Марія</td>
+    <td>30</td>
+    <td>1800</td>
+  </tr>
+  <tr>
+    <td>Петро</td>
+    <td>20</td>
+    <td>2200</td>
+  </tr>
+  </tbody>
+</table>
+<div class="content">
+  <div class="content__textarea" id="content__textarea">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nihil cum corrupti aliquid vitae quam reiciendis
+    esse doloremque, praesentium aliquam dolorum sequi assumenda quos eligendi est officiis, molestias unde nesciunt!
+    <div class="content__textarea--resizer"></div>
+  </div>
+</div>
+<script src="main.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
